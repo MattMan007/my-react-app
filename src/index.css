@@ -147,3 +147,54 @@ nav li{
   border-radius: 10px;
   align-items: end;
 }
+
+.creation-title{
+  font-size: 1.5em;
+  font-weight: bold;
+  border: 2px solid rgb(232, 58, 0);
+  border-radius: 5px;
+  text-align: center;
+}
+
+.creation{
+  text-align: center;
+}
+
+.creation-text{
+  font-size: 1.5em;
+  margin: 0;
+  text-align: center;
+}
+
+.counter-display{
+  font-size: 4em;
+  margin: 0;
+}
+
+.creation-button{
+  font-size: 1.5em;
+  font-weight: bold;
+  background-color: rgb(18, 172, 186);
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  height: 60px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.creation-input{
+  border: 2px rgb(255, 204, 0);
+  border-radius: 5px;
+  font-size: 1.5em;
+}
+
+.creation-comments{
+  border: 2px rgb(255, 204, 0);
+  border-radius: 5px;
+  font-size: 1.5em;
+  width: 400px;
+  height: 100px;
+  text-align: justify;
+}

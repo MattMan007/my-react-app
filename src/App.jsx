@@ -2,7 +2,7 @@ import Button from "./Button"
 import Header from "./Header"
 import Footer from "./Footer.jsx"
 import List from "./List.jsx"
-import MyComponent from "./MyComponent.jsx"
+import SiteCreation from "./SiteCreation.jsx"
 import ProfilePicture from "./ProfilePicture.jsx"
 import Services from "./Services.jsx"
 import UserGreeting from "./UserGreeting.jsx"
@@ -23,7 +23,7 @@ function App() {
       <ProfilePicture></ProfilePicture>
       <Services></Services>
       <List items={companies} category="Companies we have worked with:"></List>
-      
+      <SiteCreation></SiteCreation>
       <Button></Button>
       <Footer></Footer>
     </>
