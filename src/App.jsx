@@ -6,6 +6,9 @@ import SiteCreation from "./SiteCreation.jsx"
 import ProfilePicture from "./ProfilePicture.jsx"
 import Services from "./Services.jsx"
 import UserGreeting from "./UserGreeting.jsx"
+import Contracts from "./Contracts.jsx"
+import ListAdder from "./ListAdder.jsx"
+import ToDoList from "./ToDoList.jsx"
 
 function App() {
 
@@ -24,6 +27,9 @@ function App() {
       <Services></Services>
       <List items={companies} category="Companies we have worked with:"></List>
       <SiteCreation></SiteCreation>
+      <Contracts></Contracts>
+      <ListAdder></ListAdder>
+      <ToDoList></ToDoList>
       <Button></Button>
       <Footer></Footer>
     </>

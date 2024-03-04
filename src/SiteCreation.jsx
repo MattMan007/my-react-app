@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import Counter from './Counter';
+import ColorPicker from './ColorPicker'
 
 function SiteCreation(){
     const [name, setName] = useState();
@@ -71,6 +72,8 @@ function SiteCreation(){
             <input type="radio" value="Company" checked={clientType === "Company"} onChange={selectClientType}/>
             <span className='creation-text'>Company</span>
         </label>
+        <ColorPicker type="main"></ColorPicker>
+        <ColorPicker type="secondary"></ColorPicker>
 
 
     </div>);

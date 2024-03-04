@@ -6,6 +6,7 @@ function Button(){
         color: "#535bf2",
         padding: "10px 20px",
         borderRadius: "5px",
+        alignItems: "center",
         cursor: "pointer",
     }
 

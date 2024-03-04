@@ -5,10 +5,12 @@ function Counter(){
     const [count, setCounter] = useState(0);
 
     const increment = () => {
-        setCounter(count + 1);
+        setCounter(c => c + 1);
+        setCounter(c => c + 1);
     }
     const decrement = () => {
-        setCounter(count - 1);
+        setCounter(c => c - 1);
+        setCounter(c => c - 1);
     }
     const reset = () => {
         setCounter(0);
