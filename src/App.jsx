@@ -9,6 +9,11 @@ import UserGreeting from "./UserGreeting.jsx"
 import Contracts from "./Contracts.jsx"
 import ListAdder from "./ListAdder.jsx"
 import ToDoList from "./ToDoList.jsx"
+import SetSize from "./SetSize.jsx"
+import Clock from "./Clock.jsx"
+import Component1 from "./Component1.jsx"
+import RefComp from "./RefComp.jsx"
+import StopWatch from "./StopWatch.jsx"
 
 function App() {
 
@@ -23,13 +28,17 @@ function App() {
     <>
       <Header></Header>
       <UserGreeting isLoggedIn={true} username="Mattman"></UserGreeting>
-      <ProfilePicture></ProfilePicture>
+      <Clock></Clock>
       <Services></Services>
       <List items={companies} category="Companies we have worked with:"></List>
       <SiteCreation></SiteCreation>
       <Contracts></Contracts>
       <ListAdder></ListAdder>
       <ToDoList></ToDoList>
+      <SetSize></SetSize>
+      <Component1></Component1>
+      <RefComp></RefComp>
+      <StopWatch></StopWatch>
       <Button></Button>
       <Footer></Footer>
     </>
